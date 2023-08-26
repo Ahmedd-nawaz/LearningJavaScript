@@ -132,3 +132,27 @@
 // let age = 19;
 // let a = age > 18? "You can drive" : "You cannot drive";
 // console.log(a)
+
+// Loops & Functions
+// let sum = 0
+// let n = prompt("Enter the value of n")
+// n = Number.parseFloat(n)
+// for (let i = 0; i < n; i++) {
+//     console.log(i)
+// }
+
+let obj = {
+    ahmed : 90,
+    anas : 45,
+    saad : 56,
+    hamza : 57,
+    rafiq : 23
+}
+// For in
+for (let a in obj){
+    console.log("Marks of " + a  +" are " + obj[a] )
+}
+// For of loop
+for (let b of "ahmed"){
+console.log(b)
+}
