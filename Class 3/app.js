@@ -141,18 +141,37 @@
 //     console.log(i)
 // }
 
-let obj = {
-    ahmed : 90,
-    anas : 45,
-    saad : 56,
-    hamza : 57,
-    rafiq : 23
-}
+// let obj = {
+//     ahmed : 90,
+//     anas : 45,
+//     saad : 56,
+//     hamza : 57,
+//     rafiq : 23
+// }
 // For in
-for (let a in obj){
-    console.log("Marks of " + a  +" are " + obj[a] )
-}
+// for (let a in obj){
+//     console.log("Marks of " + a  +" are " + obj[a] )
+// }
 // For of loop
-for (let b of "ahmed"){
-console.log(b)
-}
+// for (let b of "ahmed"){
+// console.log(b)
+// }
+
+// While loops
+// let n = prompt("Enter the value of n")
+// n = Number.parseInt(n)
+
+// let i = 0
+// while(i<n){
+//     console.log(n)
+//     i++ 
+// }
+// Do while loop
+let n = prompt("Enter the value of n")
+n = Number.parseInt(n)
+
+let i = 10
+do{
+    console.log(n)
+    i++ 
+}while(i<n)
